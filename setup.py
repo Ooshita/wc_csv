@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 setup(
     name='wc_csv',
-    version='0.23',
+    version='0.24',
     description='This tool can be csv to string',
     url='https://github.com/Oshita/wc_csv',
     author='NoriakiOshita',

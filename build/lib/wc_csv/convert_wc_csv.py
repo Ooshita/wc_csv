@@ -9,7 +9,7 @@ class Wcsv:
         df.reset_index(inplace=True)
         return df
 
-    def convert_string(self, df):
+    def convert_string(self, df, option=False):
         csv_str = "" 
         words = []
         for i in range(0, len(df[0])):
@@ -20,4 +20,7 @@ class Wcsv:
         np.random.shuffle(words)
         for word in words:
             csv_str += word + " "
-        return csv_str
+        if option != True:
+            return csv_str
+        else:
+            return words

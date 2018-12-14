@@ -1,1 +1,3 @@
-__version__ = '0.23'
+from wc_csv import *
+
+__version__ = '0.24'
